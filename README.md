@@ -19,12 +19,12 @@ This is the official PyTorch codes for the paper.
 - PyYAML
 ```
 # git clone this repository
-git clone https://github.com/LYL1015/DIRFL.git
-cd DIRFL
+git clone https://github.com/LYL1015/HFEAN.git
+cd HFEAN
 
 # create new anaconda env
-conda create -n DIRFL python=3.8
-conda activate DIRFL
+conda create -n HFEAN python=3.8
+conda activate HFEAN
 
 pip install torch numpy matplotlib opencv-python pyyaml
 ```
