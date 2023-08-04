@@ -3,7 +3,7 @@
 ![Python 3.8](https://img.shields.io/badge/python-3.8-g) ![pytorch 1.12.0](https://img.shields.io/badge/pytorch-1.12.0-blue.svg)
 
 This is the official PyTorch codes for the paper.  
->**Learning High-frequency Feature Enhancement and Alignment for Pan-sharpening**<br> [Yingying Wang](), [Yunlong Lin](https://scholar.google.com.hk/citations?user=5F3tICwAAAAJ&hl=zh-CN), [Ge Meng](), [Zhenqi fu](https://zhenqifu.github.io/index.html), [Yuhang Dong](), [Linyu Fan](),  [Hedeng Yu](), [Xinghao Ding<sup>*</sup>](https://scholar.google.com.hk/citations?user=k5hVBfMAAAAJ&hl=zh-CN&oi=ao),  [Yue Huang]()（ *indicates corresponding author)<br>
+>**Learning High-frequency Feature Enhancement and Alignment for Pan-sharpening**<br> [Yingying Wang](), [Yunlong Lin](https://scholar.google.com.hk/citations?user=5F3tICwAAAAJ&hl=zh-CN), [Ge Meng](), [Zhenqi Fu](https://zhenqifu.github.io/index.html), [Yuhang Dong](), [Linyu Fan](),  [Hedeng Yu](), [Xinghao Ding<sup>*</sup>](https://scholar.google.com.hk/citations?user=k5hVBfMAAAAJ&hl=zh-CN&oi=ao),  [Yue Huang]()（ *indicates corresponding author)<br>
 
 <div align=center><img src="image/framework.png" height = "100%" width = "100%"/></div>
 
