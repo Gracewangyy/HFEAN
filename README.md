@@ -8,7 +8,7 @@ This is the official PyTorch codes for the paper.
 <div align=center><img src="image/framework.png" height = "100%" width = "100%"/></div>
 
 ### :rocket: Highlights:
-- **SOTA performance**: The proposed DIRFL achieves better generalization performance than existing SOTA pan-sharpening methods over multiple satellite datasets.
+- **SOTA performance**: The proposed HFEAN outperforms SOTA pan-sharpening methods over multiple satellite datasets.
 
 ## Dependencies and Installation
 - Ubuntu >= 18.04
