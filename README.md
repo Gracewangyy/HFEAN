@@ -1,4 +1,4 @@
-# <p align=center> :fire: `Learning High-frequency Feature Enhancement and Alignment for Pan-sharpening (ACMMMM 2023)`</p>
+# <p align=center> :fire: `Learning High-frequency Feature Enhancement and Alignment for Pan-sharpening (ACM MM 2023)`</p>
 
 ![Python 3.8](https://img.shields.io/badge/python-3.8-g) ![pytorch 1.12.0](https://img.shields.io/badge/pytorch-1.12.0-blue.svg)
 
