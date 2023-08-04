@@ -81,7 +81,7 @@ The configuration options are stored in the `option.yaml` file and `test.py`. He
 - `save_dir`: The location to save the test results.
 - `test_config_path` : The configuration file path for models
   
-#### Data Processingc
+#### Data Processing
 
 - `upscale`: The upscale factor.
 - `batch_size`: The size of each batch.
