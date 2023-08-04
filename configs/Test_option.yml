@@ -1,0 +1,81 @@
+
+algorithm: HFEAN
+gpu_mode: True
+gpus: [0]
+threads: 0 #num_works
+
+seed: 123 #123
+data_dir_eval: ./Data/GF2_data/test128
+
+source_ms: ms
+source_pan: pan
+
+test:  #用于指标测试的代码
+######################
+  algorithm: HFEAN
+  datatype: GF2
+  test_data: test128
+  type: test 
+######################
+  data_dir: ./Data/GF2_data/test128
+  source_ms: ms
+  source_pan: pan
+  model: ./Experiments/HFEAN/wv3_dataset/EXP1/HFEAN_best_model_epoch:1.pth
+  save_dir: ./result/GF2/HFEAN/
+  save_dir_rgb: ./result/GF2_rgb/HFEAN/
+  test_config_path: ./configs/Train_DiCNN.json
+
+test2:  #用于指标测试的代码
+######################
+  algorithm: HFEAN
+  datatype: WV2
+  test_data: test128
+  type: test 
+######################
+  data_dir: ./Data/WV2_data/test128
+  source_ms: ms
+  source_pan: pan
+  model: ./Experiments/HFEAN/wv3_dataset/EXP1/HFEAN_best_model_epoch:1.pth
+  save_dir: ./result/WV2/HFEAN/
+  save_dir_rgb: ./result/WV2_rgb/HFEAN/
+  test_config_path: ./configs/Train_DiCNN.json
+
+test3:  #用于指标测试的代码
+######################
+  algorithm: HFEAN
+  datatype: WV3
+  test_data: test128
+  type: test
+######################
+  data_dir: ./Data/WV3_data/test128
+  source_ms: ms
+  source_pan: pan
+  model: ./Experiments/HFEAN/wv3_dataset/EXP1/HFEAN_best_model_epoch:1.pth
+  save_dir: ./result/WV3/HFEAN/
+  save_dir_rgb: ./result/WV3_rgb/HFEAN/
+  test_config_path: ./configs/Train_DiCNN.json
+
+test4:  #用于指标测试的代码
+######################
+  algorithm: HFEAN
+  datatype: fullGF2
+  test_data: test128
+  type: test 
+######################
+  data_dir: ./Data/fullGF2_data/test128
+  source_ms: ms
+  source_pan: pan
+  model: ./Experiments/HFEAN/wv3_dataset/EXP1/HFEAN_best_model_epoch:1.pth
+  save_dir: ./result/WV3/HFEAN/
+  save_dir_rgb: ./result/WV3_rgb/HFEAN/
+  test_config_path: ./configs/Train_DiCNN.json
+
+data:
+  upsacle:  4
+  batch_size: 4 #4
+  patch_size: 32
+  data_augmentation: False
+  n_colors: 4
+  rgb_range: 255
+  normalize : False
+  
