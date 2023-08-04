@@ -19,7 +19,7 @@ This is the official PyTorch codes for the paper.
 - PyYAML
 ```
 # git clone this repository
-git clone https://github.com/LYL1015/HFEAN.git
+git clone https://github.com/Gracewangyy/HFEAN.git
 cd HFEAN
 
 # create new anaconda env
