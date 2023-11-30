@@ -39,13 +39,14 @@ def Gaussian_filter(tensor, kernel_size=5, sigma=0):
 
     # Gaussian_filter
     for i in range(numpy_array.shape[0]):  # iterate over the batch size
-        image = numpy_array[i, 0, :, :]  # Retrieve current image and compress the channel
+        for channel in range(numpy_array.shape[1]):  # iterate over channels
+            image = numpy_array[i, channel, :, :]  # Retrieve current channel
 
-        # Gaussian_blur
-        blurred_image = cv2.GaussianBlur(image, (kernel_size, kernel_size), sigma)
+            # Gaussian_blur
+            blurred_image = cv2.GaussianBlur(image, (kernel_size, kernel_size), sigma)
 
-        # filtered result to the original array
-        numpy_array[i, 0, :, :] = blurred_image
+            # filtered result to the original array
+            numpy_array[i, channel, :, :] = blurred_image
 
     # convert numpy to tensor
     blurred_tensor = torch.from_numpy(numpy_array)
